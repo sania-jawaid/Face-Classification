@@ -75,5 +75,5 @@ results.
 variations to your test images such as different lighting, rotations, partial obstruction
 of the faces or person wearing glasses etc), explain what is happening and why it is
 happening.
-6 Discussion
+• Discussion
 
