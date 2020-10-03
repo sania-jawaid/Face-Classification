@@ -45,8 +45,8 @@ First, we will compute features from pixel intensities in order to learn a repre
 
 Second, detecting an object of interest in a new image involves matching the local descriptors
 to the image, this allows you to detect which regions have structures that correspond well
-to the ones present in your feature descriptor. As a distance metric we could for instance
-calculate the euclidean distance between the feature outputs and the feature outputs of your
+to the ones present in our feature descriptor. As a distance metric we could for instance
+calculate the euclidean distance between the feature outputs and the feature outputs of our
 object(s) of interest at every position in the image.
 
 ### Exploit feature representations
@@ -55,24 +55,22 @@ Test images from the faces dataset that we built previously. Use favorite classi
 Classification
 In classification it is our goal to assign a class to an unseen data example. In this exercise
 we will train a binary classifier that can recognise person A (class 0) and person B (class
-1). Discuss how we build this classifier for each of your feature representations. Then run
-predictions on your test set and compute the mean accuracy. How well does the model
-predict on test images of person C and D? Can you explain why and how the three feature
-representations behave differently?
+1). Discuss how we build this classifier for each of our feature representations. Then run
+predictions on our test set and compute the mean accuracy.
 
 Identification
 In an identification setup the goal is to compute similarity scores between pairs of data
 examples and use them to identify new images. In this exercise we will compute the feature
-representation of every image and create a data space using your training data, give each of
+representation of every image and create a data space using our training data, give each of
 the data points a label based on the person they contain. Next we try to identify the test images
 using the k-Nearest-Neighbor technique in this data space.
 
 
 Additional Task
-• Pick one feature representation and try to improve your classification/identification
+• Pick one feature representation and try to improve our classification/identification
 results.
-• Modify/add test images to understand what breaks your classifier (e.g. apply additional
-variations to your test images such as different lighting, rotations, partial obstruction
+• Modify/add test images to understand what breaks our classifier (e.g. apply additional
+variations to our test images such as different lighting, rotations, partial obstruction
 of the faces or person wearing glasses etc), explain what is happening and why it is
 happening.
 • Discussion
